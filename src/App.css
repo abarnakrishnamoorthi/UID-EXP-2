@@ -1,0 +1,64 @@
+/* src/App.css */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.user-profile {
+  background: url('./assets/image.png') no-repeat center center fixed;
+  background-size: cover;
+  text-align: center;
+  padding: 40px;
+  color: #fff;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile-details {
+  background: rgba(0, 0, 0, 0.6); /* Semi-transparent background for contrast */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.profile-picture {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  margin-bottom: 20px;
+}
+
+a {
+  color: #007bff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.social-links {
+  margin-top: 20px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  margin: 5px;
+  border-radius: 5px;
+  font-weight: bold;
+  text-decoration: none;
+  color: white;
+}
+
+.github {
+  background-color: #333; /* GitHub color */
+}
+
+.linkedin {
+  background-color: #0077b5; /* LinkedIn color */
+}
